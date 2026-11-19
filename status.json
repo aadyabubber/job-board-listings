@@ -1,0 +1,10 @@
+{
+  "updated": "2026-11-19T00:00:00Z",
+  "web_results_checked": 2,
+  "company_postings_checked": 0,
+  "company_postings_matching_title": 0,
+  "added": 0,
+  "below_65_skipped": 1,
+  "failed_companies": ["accenturefederalservices", "andurilindustries", "spacex", "rackner", "nerostechnologies", "mavenrobotics", "caseguard", "atomicmachines", "hellbenderinc", "babelstreet", "bedrockrobotics", "appliedintuition", "mill", "kitware", "blencorp", "rai"],
+  "note": "Run could not read any company job-board API: outbound requests to the Greenhouse, Lever, Ashby, Workable and SmartRecruiters hosts were refused by the sandbox proxy (CONNECT 403). Web search returned mostly aggregator pages; two employer-ATS postings were opened and neither qualified (one non-US, one below 65 and via a staffing agency). No listings added; listings.json unchanged."
+}
