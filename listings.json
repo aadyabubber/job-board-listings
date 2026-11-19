@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "note": "Verified, open listings only. Listings are added and never removed.",
   "listings": [
     {
@@ -380,6 +380,26 @@
       "gap": "5+ years AV/robotics perception; production C++ or Python; uncertainty estimation",
       "link": "https://job-boards.greenhouse.io/appliedintuition/jobs/4674858005",
       "verify": "Employer ATS (Greenhouse), re-verified 2026-11-18",
+      "open": "Open"
+    },
+    {
+      "id": 20,
+      "tier": "B",
+      "role": "Machine Learning Engineer",
+      "company": "Chooch",
+      "location": "San Mateo, CA (Hybrid)",
+      "payText": "USD 120,000 - 180,000",
+      "pay": 120000,
+      "cit": "Not stated",
+      "citizenOnly": false,
+      "clearance": "none",
+      "yearsMin": 3,
+      "exp": "3-5 years industry ML, at least 2 in computer vision",
+      "fit": "Moderate",
+      "fitNote": "Detection, segmentation and tracking on customer video matches CV work and Docker/cloud deployment; asks for 3+ years industry ML and PyTorch/TensorFlow.",
+      "gap": "3+ years industry ML; PyTorch or TensorFlow; ONNX/TensorRT; edge optimization",
+      "link": "https://apply.workable.com/chooch/jobs/view/04471691E6.md",
+      "verify": "Employer ATS (Workable), verified 2026-11-19; posted 2026-10-20 as shown",
       "open": "Open"
     }
   ]
