@@ -1,10 +1,141 @@
 {
-  "updated": "2026-11-19T00:00:00Z",
+  "updated": "2026-11-19T09:50:01Z",
   "web_results_checked": 2,
   "company_postings_checked": 0,
   "company_postings_matching_title": 0,
   "added": 0,
   "below_65_skipped": 1,
-  "failed_companies": ["accenturefederalservices", "andurilindustries", "spacex", "rackner", "nerostechnologies", "mavenrobotics", "caseguard", "atomicmachines", "hellbenderinc", "babelstreet", "bedrockrobotics", "appliedintuition", "mill", "kitware", "blencorp", "rai"],
-  "note": "Run could not read any company job-board API: outbound requests to the Greenhouse, Lever, Ashby, Workable and SmartRecruiters hosts were refused by the sandbox proxy (CONNECT 403). Web search returned mostly aggregator pages; two employer-ATS postings were opened and neither qualified (one non-US, one below 65 and via a staffing agency). No listings added; listings.json unchanged."
+  "failed_companies": [
+    "accenturefederalservices",
+    "andurilindustries",
+    "spacex",
+    "rackner",
+    "nerostechnologies",
+    "mavenrobotics",
+    "caseguard",
+    "atomicmachines",
+    "hellbenderinc",
+    "babelstreet",
+    "bedrockrobotics",
+    "appliedintuition",
+    "mill",
+    "kitware",
+    "blencorp",
+    "rai"
+  ],
+  "note": "Diagnostic run. Company step did not complete: every request to the five job-board hosts was refused by the sandbox proxy at CONNECT (HTTP 403), so no postings were read. Web search step completed; no listings added. listings.json unchanged.",
+  "diagnostics": {
+    "accenturefederalservices": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "andurilindustries": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "spacex": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "rackner": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "nerostechnologies": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "mavenrobotics": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "caseguard": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "atomicmachines": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "hellbenderinc": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "babelstreet": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "bedrockrobotics": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "appliedintuition": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "mill": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "kitware": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "blencorp": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    },
+    "rai": {
+      "greenhouse": "blocked",
+      "lever": "blocked",
+      "ashby": "blocked",
+      "workable": "blocked",
+      "smartrecruiters": "blocked"
+    }
+  }
 }
